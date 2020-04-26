@@ -1,0 +1,13 @@
+[package]
+name = "yew-wiki"
+version = "0.1.0"
+authors = ["Julien <julien.gabryelewicz2@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+serde = "1"
+serde_derive = "1"
+yew = {version = "0.14.3", features = ["std_web"] }
